@@ -1,0 +1,14 @@
+body{
+	background-color: tomato;
+}
+h1, h3, h2{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: green;
+}
+li, p, a{
+	color: #ffff99;
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+}
