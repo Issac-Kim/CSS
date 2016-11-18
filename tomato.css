@@ -9,6 +9,14 @@ li, p, a{
 	color: #ffff99;
 	font-size: 20px;
 }
+li{
+	display: inline;
+}
 a{
 	text-decoration: none;
+}
+.extreme{
+	border-style: solid;
+	border-width: 10px;
+	border-color: darkgreen;
 }

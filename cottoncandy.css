@@ -1,6 +1,12 @@
 body{
 	background-color: lightblue;
 }
+.extreme{
+	background-color: cyan;
+	color: hotpink;
+	font-size: 30px;
+	text-decoration: underline;
+}
 h1, h3, h2{
 	text-decoration: underline;
 	font-family: "Comic Sans MS", cursive, sans-serif;
@@ -15,4 +21,7 @@ a{
 }
 ul{
 	list-style-type: square;
+}
+.prose{
+	text-align: center;
 }
