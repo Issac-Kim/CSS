@@ -1,0 +1,43 @@
+body{
+	text-align: center;
+	background-color: #474973;
+}
+#color{
+	font-size: 5em;
+	background-color: #0D0C1D;
+	animation-name: colorchange;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+.navzone{
+	color: #F1DAC4;
+}
+@keyframes colorchange{
+	0%{color: #F1DAC4;}
+	33%{color: #A69CAC;}
+	66%{color: #474973;}
+	100%{color: #F1DAC4;}
+}
+p{
+	color: #F1DAC4;
+}
+.inherit p{
+	color: inherit;
+}
+a {
+    text-decoration:none;
+}
+
+a:link {
+    color:#F1DAC4;
+}
+
+a:visited {
+    color:#F1DAC4;
+}
+
+a:hover,
+a:active {
+    font-size:2em;
+    color:deeppink;
+}
